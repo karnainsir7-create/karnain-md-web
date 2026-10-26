@@ -1,0 +1,15 @@
+{
+  "name": "karnain-md",
+  "version": "1.0.0",
+  "private": true,
+  "description": "KARNAIN MD WhatsApp pairing website and Node.js backend",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "postinstall": "npm --prefix backend install",
+    "build": "npm --prefix backend run prisma:generate",
+    "start": "npm --prefix backend start",
+    "test": "npm --prefix backend test"
+  }
+}
