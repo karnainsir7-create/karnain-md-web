@@ -1,0 +1,1 @@
+import Link from 'next/link';import {Layout} from '@/components/Site';export default function Admin(){return <Layout><main className="section"><div className="eyebrow">ADMIN AREA</div><h1>Administrator</h1><p className="lead">Panel administrasi dasar. Akses API memerlukan sesi login.</p><Link className="btn primary" href="/login">Administrator login</Link></main></Layout>}
